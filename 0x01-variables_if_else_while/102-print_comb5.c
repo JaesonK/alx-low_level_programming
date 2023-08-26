@@ -18,8 +18,10 @@ int main(void)
 		{
 			for ( k = '0'; k <= '8'; k++)
 			{
-				for (l = '1'; l <= '9'; l++)
+				for (l = '0'; l <= '9'; l++)
 				{
+					if (i == 0 && j == 0 && k == 0 && l == 0)
+						l = 1;
 					if (i + j < k + l)
 					{
 						putchar(i);
