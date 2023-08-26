@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * return: Alaways 0 (Success)
+ * Return: Alaways 0 (Success)
  */
 
 int main(void)
@@ -18,8 +18,9 @@ int main(void)
 		if (i != '9')
 		{
 			putchar(',');
+			putchar(' ');
 		}
-		putchar(' ');
+		putchar('\n');
 	}
 
 	return (0);
