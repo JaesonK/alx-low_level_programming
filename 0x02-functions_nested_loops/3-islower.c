@@ -13,6 +13,6 @@ int _islower(int c)
 
 	if (ac >= 97 && ac <= 122)
 		return (1);
-	else 
+	else
 		return (0);
 }
