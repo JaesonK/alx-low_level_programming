@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "main.h"
 
 /*
@@ -13,7 +14,7 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 		_putchar(word[i]);
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
