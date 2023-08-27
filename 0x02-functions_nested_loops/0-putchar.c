@@ -1,9 +1,9 @@
 #include "main.h"
 
 /*
- * main - Entry point
+ * main - Check description
  *Description: It prints the word Holberton, followed by a new line.
- * Return: Always 0 (Success)
+ * Return: 0.
  */
 
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 9; i++)
-		putchar(word[i]);
+		_putchar(word[i]);
 	putchar('\n');
 
 	return (0);
