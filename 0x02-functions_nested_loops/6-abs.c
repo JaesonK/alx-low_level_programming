@@ -8,9 +8,13 @@
  */
 int _abs(int n)
 {
-	int vbas = abs(n);
-
-	_putchar(vbas);
+	int r;
+	
+	if (n < 0)
+		r = -1 * n;
+	else
+		r = n;
+	_putchar(r);
 
 	return (0);
 }
