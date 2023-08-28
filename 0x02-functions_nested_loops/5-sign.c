@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - Check Holberton
+ * print_sign - Check Description
  * @n: An input number
  * Description: Tohis function prints the sign of the number
  * Return: 1 if number is positive, o if number is 0, or
@@ -14,16 +14,16 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		sign = 1;
-		print('+');
+		_putchar('+');
 	}
 	else if(n < 0)
 	{
 		sign = -1;
-		print('-');
+		_putchar('-');
 	}
 	else
 	{
 		sign = 0;
-		print('0');
+		_putchar('0');
 	}
 }
