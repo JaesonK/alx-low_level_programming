@@ -23,7 +23,6 @@ int main(void)
 		else
 			printf("%ld, ", fibonacci[i]);
 	}
-	printf("\n");
 
 	return (0);
 }
