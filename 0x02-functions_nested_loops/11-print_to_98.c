@@ -20,7 +20,7 @@ void print_to_98(int n)
 				if (i < 0)
 				{
 					_putchar('-');
-					_putchar(-1 * i);
+					_putchar((-1 * i));
 					_putchar(',');
 					_putchar(' ');
 				}
